@@ -1,0 +1,76 @@
+body
+{
+	margin:0;
+	padding:0;
+}
+body:before{
+	content: ''; 
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(first.jpg);
+	background-position: center ;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	filter:
+}
+.main
+{
+	position: relative;
+	width: 400px;
+	height: 350px;
+	margin: 2px auto 0;
+	background: rgba(0,0,0,0.4);
+	padding: 50px;	
+	text-align: center;
+	border: 3px solid #000;
+	-webkit-border-radius:70px 0 70px 0;
+	-moz-border-radius:70px 0 70 px 0;
+	border-radius: 70px 0 70px 0;
+	transform: translate(-5%,20%);
+}
+
+h1{
+	margin: 10;
+	padding: 0 0 70px;
+	text-align: center;
+	font-size: 40px;
+	color:#fff;
+}
+
+.teacherreg
+{
+	display: inline-block;
+	height:40px;
+	width: 150px;
+	line-height: 40px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	background: #DC143C;
+	border-radius: 25px;
+	color:  #fff;
+	text-transform: uppercase;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.teacherlogin
+{
+	display: inline-block;
+	height:40px;
+	width: 150px;
+	line-height: 40px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	background: #DC143C;
+	border-radius: 25px;
+	color:  #fff;
+	text-transform: uppercase;
+	margin-top: 5px;
+	cursor: pointer;
+}
